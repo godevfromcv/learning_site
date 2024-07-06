@@ -6,7 +6,7 @@ const DataDisplay = () => {
 
     useEffect(() => {
         // Запрос к API
-        axios.get('http://localhost:8080/api/your-endpoint')
+        axios.get('http://localhost:8081')
             .then(response => {
                 setData(response.data);
             })
